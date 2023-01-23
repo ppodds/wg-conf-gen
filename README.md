@@ -1,0 +1,1 @@
+# WG Config Generator
