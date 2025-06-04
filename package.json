@@ -8,10 +8,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@mdi/font": "^7.1.96",
-    "nuxt": "^3.0.0"
+    "@mdi/font": "^7.4.47",
+    "nuxt": "^3.17.5"
   },
   "dependencies": {
-    "vuetify": "^3.0.0"
-  }
+    "vuetify": "^3.8.8"
+  },
+  "packageManager": "pnpm@10.11.1"
 }
