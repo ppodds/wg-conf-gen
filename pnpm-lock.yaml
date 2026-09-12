@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       vuetify:
-        specifier: ^3.8.8
-        version: 3.8.8(typescript@5.8.3)(vue@3.5.16(typescript@5.8.3))
+        specifier: ^4.0.0
+        version: 4.2.1(typescript@5.8.3)(vue@3.5.16(typescript@5.8.3))
     devDependencies:
       '@mdi/font':
         specifier: ^7.4.47
@@ -1130,6 +1130,39 @@ packages:
   '@vue/shared@3.5.16':
     resolution: {integrity: sha512-c/0fWy3Jw6Z8L9FmTyYfkpM5zklnqqa9+a6dz3DvONRKW2NEbh46BP0FHuLFSWi2TnQEtp91Z6zOWNrU6QiyPg==}
 
+  '@vuetify/v0@1.2.2':
+    resolution: {integrity: sha512-7AvM89l6l/pShSYKa+a5/zsht/xj/l4jFpWFOR6UqSelBrPfKxEQ8heO8iCNEGNK5yljwsdARx0JmDJjJRJdVw==}
+    peerDependencies:
+      '@adobe/leonardo-contrast-colors': '>=1.0.0'
+      '@ant-design/colors': '>=7.0.0'
+      '@flagsmith/flagsmith': '>=11.0.0'
+      '@floating-ui/dom': '>=1.8.0'
+      '@js-temporal/polyfill': '>=0.5.0'
+      '@material/material-color-utilities': '>=0.3.0'
+      launchdarkly-js-client-sdk: ^3.0.0
+      posthog-js: ^1.0.0
+      vue: '>=3.5.0 || >=3.6.0-0'
+      vue-i18n: '>=10.0.0'
+    peerDependenciesMeta:
+      '@adobe/leonardo-contrast-colors':
+        optional: true
+      '@ant-design/colors':
+        optional: true
+      '@flagsmith/flagsmith':
+        optional: true
+      '@floating-ui/dom':
+        optional: true
+      '@js-temporal/polyfill':
+        optional: true
+      '@material/material-color-utilities':
+        optional: true
+      launchdarkly-js-client-sdk:
+        optional: true
+      posthog-js:
+        optional: true
+      vue-i18n:
+        optional: true
+
   '@whatwg-node/disposablestack@0.0.6':
     resolution: {integrity: sha512-LOtTn+JgJvX8WfBVJtF08TGrdjuFzGJc4mkP8EdDI8ADbvO7kiexYep1o8dwnt0okb0jYclCDXF13xU7Ge4zSw==}
     engines: {node: '>=18.0.0'}
@@ -1434,6 +1467,7 @@ packages:
   cron-parser@4.9.0:
     resolution: {integrity: sha512-p0SaNjrHOnQeR8/VnfGbmg9te2kfyYSQ7Sc/j/6DtPL3JQvKxmjO9TSjNFpujqV3vEYYBvNNvXSxzyksBWAx1Q==}
     engines: {node: '>=12.0.0'}
+    deprecated: v4 is no longer maintained, upgrade to v5
 
   croner@9.0.0:
     resolution: {integrity: sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==}
@@ -1921,12 +1955,13 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -3157,6 +3192,7 @@ packages:
   tar@7.4.3:
     resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   terser@5.40.0:
     resolution: {integrity: sha512-cfeKl/jjwSR5ar7d0FGmave9hFGJT8obyo0z+CrQOylLDbk7X81nPU6vq9VORa5jU30SkDnT2FXjLbR8HLP+xA==}
@@ -3272,6 +3308,7 @@ packages:
 
   unplugin-vue-router@0.12.0:
     resolution: {integrity: sha512-xjgheKU0MegvXQcy62GVea0LjyOdMxN0/QH+ijN29W62ZlMhG7o7K+0AYqfpprvPwpWtuRjiyC5jnV2SxWye2w==}
+    deprecated: 'Merged into vuejs/router. Migrate: https://router.vuejs.org/guide/migration/v4-to-v5.html'
     peerDependencies:
       vue-router: ^4.4.0
     peerDependenciesMeta:
@@ -3508,13 +3545,12 @@ packages:
       typescript:
         optional: true
 
-  vuetify@3.8.8:
-    resolution: {integrity: sha512-EPFynvxh72PBgUVZnGpfYfGluz8dz/tXM1OzjszFOK7ywqS+bAm8K9jJq0MIlAG8HKE7gBFQwCJGkzIyuUDipA==}
-    engines: {node: ^12.20 || >=14.13}
+  vuetify@4.2.1:
+    resolution: {integrity: sha512-K3ZIqu7YkorQFB6//dR5KEBpbfOo+y/LkcGtknsnneE3JN1pW3R7o/JB9QDkJuP1ELhENIdBZIkiSmXu0dQ9lQ==}
     peerDependencies:
       typescript: '>=4.7'
       vite-plugin-vuetify: '>=2.1.0'
-      vue: ^3.5.0
+      vue: ^3.5.0 || ^3.6.0-0
       webpack-plugin-vuetify: '>=3.1.0'
     peerDependenciesMeta:
       typescript:
@@ -4861,6 +4897,10 @@ snapshots:
       vue: 3.5.16(typescript@5.8.3)
 
   '@vue/shared@3.5.16': {}
+
+  '@vuetify/v0@1.2.2(vue@3.5.16(typescript@5.8.3))':
+    dependencies:
+      vue: 3.5.16(typescript@5.8.3)
 
   '@whatwg-node/disposablestack@0.0.6':
     dependencies:
@@ -7420,11 +7460,22 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.3
 
-  vuetify@3.8.8(typescript@5.8.3)(vue@3.5.16(typescript@5.8.3)):
+  vuetify@4.2.1(typescript@5.8.3)(vue@3.5.16(typescript@5.8.3)):
     dependencies:
+      '@vuetify/v0': 1.2.2(vue@3.5.16(typescript@5.8.3))
       vue: 3.5.16(typescript@5.8.3)
     optionalDependencies:
       typescript: 5.8.3
+    transitivePeerDependencies:
+      - '@adobe/leonardo-contrast-colors'
+      - '@ant-design/colors'
+      - '@flagsmith/flagsmith'
+      - '@floating-ui/dom'
+      - '@js-temporal/polyfill'
+      - '@material/material-color-utilities'
+      - launchdarkly-js-client-sdk
+      - posthog-js
+      - vue-i18n
 
   web-streams-polyfill@3.3.3: {}
 
