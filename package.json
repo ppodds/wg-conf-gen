@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@mdi/font": "^7.4.47",
-    "nuxt": "^3.17.5"
+    "nuxt": "^4.0.0"
   },
   "dependencies": {
     "vuetify": "^3.8.8"
